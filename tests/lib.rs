@@ -104,6 +104,16 @@ fn it_builds_a_project_with_footnote_and_table_support() {
 }
 
 #[test]
+fn it_builds_a_site_with_ignored_files() {
+    // TODO
+}
+
+#[test]
+fn it_builds_all_non_underscore_files() {
+    // TODO
+}
+
+#[test]
 fn it_deletes_the_built_site_on_clean() {
     let dir_to_clean = "tests/tmp/clean-project/_site";
     let mut config = config::Config::default();
